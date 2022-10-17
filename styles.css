@@ -3,6 +3,17 @@ body {
     font-family:Arial, Helvetica, sans-serif;
 }
 
+.assignment {
+    display:flex;
+    padding:10px;
+    background:greenyellow;
+}
+
+.assignment img {
+    width:200px;
+    padding:10px;
+}
+
 hl {
     color: lime;
     text-align: center;
