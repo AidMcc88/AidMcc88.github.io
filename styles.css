@@ -5,7 +5,8 @@ body {
 
 .assignment {
     display:flex;
-    padding:10px;
+    padding:20px;
+    margin:20px;
     background:greenyellow;
 }
 
@@ -14,7 +15,7 @@ body {
     padding:10px;
 }
 
-hl {
+h1 {
     color: lime;
     text-align: center;
 }
