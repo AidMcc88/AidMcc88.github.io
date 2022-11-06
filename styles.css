@@ -8,14 +8,29 @@ body {
     padding:20px;
     margin:20px;
     background:greenyellow;
+    border-radius:5px;
 }
 
 .assignment img {
     width:200px;
-    padding:10px;
+    margin:10px;
+    border:4px solid white;
+}
+
+.assignment img:hover {
+    border:4px solid #20B2AA;
 }
 
 h1 {
     color: lime;
     text-align: center;
+}
+
+a {
+    text-decoration:none;
+    color:rgb(21, 145, 69)
+}
+
+a:hover {
+    color:white
 }
