@@ -33,11 +33,13 @@ main {
     border-radius: 10px;
 }
 
-li {
-    color: #F7ECE1;
-    padding: 20px;
-    background-color: #8D86C9;
-    border-radius: 5px;
+.assignment {
+    width:22%;
+    padding:10px;
+    margin:10px;
+    padding:20px 10px;
+    background:#725AC1;
+    border-radius:5px;
 }
 
 a:hover {
