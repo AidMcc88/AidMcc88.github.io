@@ -1,0 +1,45 @@
+body {
+    background: #EE6D53;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#title-text {
+    background-color: #FFF7C7;
+}
+
+.assignments {
+    display:flex;
+    flex-wrap:wrap;
+    text-align: center;
+}
+
+.assignment {
+    width:22%;
+    padding:10px;
+    margin:10px;
+    padding:20px 10px;
+    background:#FFF7C7;
+    border-radius:50px;
+}
+
+h1 {
+    color: #6B1605;
+    text-align: center;
+}
+
+p {
+    color: #BD2809;
+    text-align: center;
+}
+
+h2 {
+    color: #6B3125;
+}
+
+ul {
+    color: #6B3125;
+}
+
+a {
+    color: #6B3125;
+}
