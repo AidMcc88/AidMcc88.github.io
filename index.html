@@ -1,35 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <title>CSCE 242</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header>
-        <h1>CSCE 242</h1>
-        <p>Aidan McClelland</p>
-        <p>A class discussing web technologies to support client-server computing as well as implementation of client-server applications.</p>
-    </header>
-
-    <main>
-        <h2>Assignments</h2>
-        <div class="assignments">
-        
-            <!-- Assignment 1 -->
-            <section class="assignment">
-                <li><a href="assignments/assignment1/index.html" style="text-decoration:none">Assignment 1</a></li>
-            </section>
-        
-            <!-- Assignment 2 -->
-            <section class="assignment">
-                <li><a href="assignments/assignment2/index.html" style="text-decoration:none">Assignment 2</a></li>
-            </section>
-
-            <!-- Assignment 3 -->
-            <section class="assignment">
-                <li><a href="assignments/assignment3/index.html" style="text-decoration:none">Assignment 3</a></li>
-            </section>
+    <div class="page-container">
+        <div id="main-content"> 
+            <header>
+                <h1>CSCE 242</h1>
+                <p>A class discussing web technologies to support client-server computing as well as implementation of client-server applications.</p>
+            </header>
+            <div class="assignments">
+                <div class="individual">
+                    <a href="assignments/assignment1/index.html">Assignment 1</a>
+                    <a href="assignments/assignment1/index.html"><img src="images/assignment1.png"  class="assignment-image"></a>
+                    <p>Here I created and formated html code to make a webpage based on space.</p>
+                </div>
+                <div class="individual">
+                    <a href="assignments/assignment2/index.html">Assignment 2</a>
+                    <a href="assignments/assignment2/index.html"><img src="images/assignment2.png"  class="assignment-image"></a>
+                    <p>In this assignment I created a new webpage with css code to give it style, as well as implemenmted a div class to sort everything.</p>
+                </div>
+                <div class="individual">
+                    <a href="assignments/assignment3/index.html">Assignment 3</a>
+                    <a href="assignments/assignment3/index.html"><img src="images/assignment3.png"  class="assignment-image"></a>
+                    <p>Here I used the flexbox and media query to reformat my new webpage for different screen sizes, namely mobile devices.</p>
+                </div>
+            </div>
         </div>
-    </main>
-</body>
+        <footer>
+            <div class="footer-content">
+                <p>Aidan McClelland</p> 
+                <p>Assignment Homepage</p>
+            </div>
+        </footer>
+    </div>
+</body>    
 </html>
