@@ -1,0 +1,317 @@
+/* Structure */
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#main-header {
+    background-color: black;
+    margin-top: -10px;
+}
+
+#main-nav {
+    list-style-type: none;
+}
+
+ul, li {
+    padding: 10px;
+    list-style-type: none;
+}
+
+#section1 {
+    margin-top: -24px;
+}
+
+#section1 ul {
+    background-color: #73000a;
+}
+
+#section2 {
+    background-color: white;
+    margin-top: -24px;
+}
+
+#section2 h1 {
+    background-color: #73000a;
+    color:white;
+    width: 40%;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#section2 h2,
+#section2 p {
+    padding: 10px;
+    margin: 35px;
+}
+
+#section3 {
+    background-color: #73000a;
+}
+
+#section3 h2, 
+#section3 p {
+    color: white;
+    margin-left: 50%;
+    margin: 20px;
+}
+
+#section4 {
+    background: black;
+}
+#section4 h2,
+#section4 p,
+#section4 a {
+    color:white;
+    margin: 20px;
+}
+
+#section5 {
+    background-color: #ececec;
+}
+
+#section5 h1,
+#section5 p,
+#section5 a {
+    margin-left: 50%;
+    margin: 20px;
+}
+
+#section5 h1 {
+    color:#73000a;
+}
+
+#section5 p {
+    color: black;
+}
+
+#section6 h1 {
+    color:#73000a;
+}
+
+#section6 h2{
+    color:#73000a;
+}
+
+#section7 {
+    background-color: #73000a;
+}
+
+#section7 h1,
+#section7 p,
+#section7 a {
+    color:white;
+    margin-left: 50%;
+    margin: 20px;
+}
+
+#section7 a,
+#section10 a {
+    background-color: black;
+    text-decoration: none;
+    border: 5px solid white; 
+    color: white;
+    padding: 10px;
+}
+
+#section7 a:hover,
+#section10 a:hover {
+    color:#73000a;
+    border: 5px solid #73000a;
+    background-color: white;
+}
+
+#section8 {
+    background-color: #ececec;
+}
+
+#section8 h1 {
+    color:#73000a;
+    margin: 20px;
+}
+
+#section8 p {
+    color: black;
+    margin: 20px;
+}
+
+#section8 a,
+#section9 a,
+#section5 a,
+#section4 a,
+#section11 a {
+    background-color: #73000a;
+    color:white;
+    border: 5px solid white;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+}
+
+#section8 a:hover,
+#section9 a:hover,
+#section5 a:hover,
+#section4 a:hover,
+#section11 a:hover {
+    border: 5px solid #73000a;
+    background-color: white;
+    color:#73000a;
+}
+
+#section9 {
+    background-color: #1f414d;
+}
+
+#section9 h1,
+#section9 p {
+    color:white;
+    margin-left: 50%;
+    margin:20px;
+}
+
+#section10 {
+    background-image: url(images/img11.gif);
+    padding: 150px;
+}
+
+#s10 {
+    background-color: #73000a;
+    color: white;
+    margin-right: 20%;
+    padding: 30px;
+}
+
+#section11 {
+    background-color: #ececec;
+}
+
+#section11 h1, 
+#section11 p {
+    margin-left: 50%;
+    margin:20px;
+}
+
+#section11 h1 {
+    color:#73000a
+}
+
+#section11 p {
+    color: black;
+}
+
+#final {
+    background-color: #73000a;
+    padding: 30px;
+    color:white;
+}
+
+#final a {
+    color: white;
+    text-decoration: none;
+}
+
+#final a:hover {
+    background-color: #cc2e40;
+}
+
+#final ul {
+    display: inline-block;
+}
+
+footer {
+    background-color: black;
+    margin-top: -16px;
+}
+
+footer a,
+footer li {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-size: small;
+}
+
+footer a:hover {
+    background-color: #cc2e40;
+}
+
+.h_class {
+    font-size: xx-large;
+}
+
+.last {
+    margin: 10px;
+    padding: 40px 20px;
+    background: whitesmoke;
+}
+
+/* Images */
+#main-header img,
+#final img {
+    display: block;
+    height:55px;
+}
+
+#section1 img {
+    margin-top: -24px;
+    margin-bottom: -10px;
+}
+
+#section3 img,
+#section5 img,
+#section9 img,
+#section11 img {
+    display: block;
+    margin-right: 50%;
+}
+
+#section4 img {
+    display: block;
+    margin-left: 0%;
+}
+
+#section8 img {
+    display: block;
+    margin-left: 0%;
+    padding: 30px;
+}
+
+/* Typography */
+#main-header h2 {
+    font-size: small;
+    text-align: left;
+}
+
+#main-nav a,
+#section1 a,
+#section5 a {
+    text-decoration: none;
+    color: white;
+}
+
+#main-nav a:hover {
+    background:#cc2e40;
+}
+
+#section1 a:hover {
+    background-color: #cc2e40;
+}
+
+/* Larger Resolutions */
+@media only screen and (min-width: 900px) {
+    #main-nav ul,
+    #section1 ul,
+    #section3,
+    #section4,
+    #section5,
+    #section7,
+    #section8,
+    #section9,
+    #section11,
+    .flex-container {
+        display: flex;
+    }
+
+    .flex {
+        display: 1;
+    }
+}
