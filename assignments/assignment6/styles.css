@@ -1,0 +1,102 @@
+/*Structure*/
+
+#main-header {
+    background-color: rgb(209, 23, 23);
+    margin: 5px;
+}
+
+#main-content {
+    margin: 5px;
+}
+
+#main-footer {
+    background-color: rgb(249, 92, 7);
+    margin: 5px;
+    padding: 5px;
+}
+
+.col1of3 {
+    background-color: rgb(253, 202, 155);
+    border: 5px solid rgb(168, 5, 5);
+    padding-left: 0px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.comment {
+    background-color: chartreuse;
+    border: 5px solid indigo;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#button-show, #button-hide {
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.hide {
+    display: none;
+}
+
+#text-bars {
+    text-align: left;
+}
+
+/*Animation*/
+
+.move-bird {
+    position: relative;
+    animation-name: anim-bird;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anim-bird {
+    0% {
+        bottom: 0px;
+        left: 0px;
+    }
+    25%, 75% {
+        bottom: 50px;
+        left: 100px;
+    }
+    50% {
+        bottom: 0px;
+        left: 200px;
+    }
+    100% {
+        bottom: 0px;
+        left: 0px;
+    }
+}
+
+/*Typography*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#main-footer p {
+    text-align: center;
+    font-size: 18px;
+}
+
+/*Larger Resolutions*/
+
+@media only screen and (min-width: 900px) {
+    
+    .flex-container {
+        display: flex;
+    }
+    
+    .col1of3 {
+        flex: 1;
+    }
+}
