@@ -1,29 +1,19 @@
-//helloSpecific("Portia");
-
-/*
-const helloFullName = (firstName, lastName) => {
-    console.log("Hello " + firstName + " " + lastName);
-    console.log("You are awesome!");
-};
-
-helloFullName("portia", "plante");
-
-*/
-
-/* Not ok to change a constant
-const myName = "Portia";
-myName = "Sally"; */
-
 const moveSquare = () => {
-    document.getElementById("square").classList.add("move-square");
-}
+    //document.getElementById("square").classList.add("move-square");
 
-const displayName = () => {
-    const firstName = document.getElementById("txt-first-name").value;
-    console.log("Hello " + firstName + "!");
+    const square = document.getElementById("square");
+    const button = document.getElementById("buttom-move");
+
+    //is it currently animating
+    if(square.classList.contains("move-square")) {
+        square.classList.remove("move-square");
+        buttom.innerHTML = "Start";
+    } else {
+        square.classList.add("move-square");
+        button.innerHTML = "Stop";
+    }
 }
 
 window.onload = () => {
-    document.getElementById("button-click").onclick = moveSquare;
-    document.getElementById("button-show-name").onclick = displayName;
+    document.getElementById("button-move").onclick = moveSquare;
 }
