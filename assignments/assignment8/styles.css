@@ -1,0 +1,99 @@
+/*Structure*/
+
+:root {
+    --num: 0%;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(37, 6, 43);
+    color: white;
+}
+
+.padded-area {
+    padding: 5px;
+    margin: auto;
+}
+
+.exercise1,
+.exercise2 {
+    margin: 10px;
+    padding: 30px 30px;
+    background-color: rgb(64, 3, 38);
+    border-radius: 25px;
+    text-align: center;
+}
+
+.exercise1 {
+    height: 175px;
+    position: relative;
+    top: 0px;
+}
+
+.exercise2 {
+    text-align: left;
+}
+
+/*Animation*/
+
+#img {
+    --x: 0px;
+    margin-left: var(--x);
+    height: 120px;
+    background-color: transparent;
+}
+
+
+/*Gradients*/
+
+#donate {
+    width: 100px;
+    height: 300px;
+    background: white;
+    margin: 50px;
+}
+
+#gradient {
+    width: 100px;
+    height: 300px;
+}
+
+.gfull {
+    background: linear-gradient(0deg, red var(--num), white var(--num) 100%);
+}
+
+/*Typography*/
+
+#error {
+    color: red;
+}
+
+/*Form*/
+
+label,
+input {
+    display: inline-flex;
+}
+
+label {
+    text-align: right;
+    padding: 5px;
+}
+
+/*Larger Resolution*/
+
+@media (min-width: 900px) {
+
+    .columns {
+        display: flex;
+    }
+
+    .exercise1,
+    .exercise2 {
+        flex: 1;
+    }
+
+    .exercise1 {
+        top: 150px;
+    }
+}
