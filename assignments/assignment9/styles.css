@@ -1,0 +1,87 @@
+/*Structure*/
+
+:root {
+    --num: 0%;
+}
+
+.padded-area {
+    margin: auto;
+    padding: 5px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(36, 44, 64);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.exercise1,
+.exercise2 {
+    margin: 20px;
+    padding: 20px 30px;
+    background-color: rgb(162, 230, 234);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.exercise1,
+.exercise2 {
+    height: 250px;
+    position: relative;
+    top: 0px;
+}
+
+#rainbow-button {
+    padding: 5px 12px;
+    background-color: rgb(33, 6, 132);
+    color: white;
+    border-radius: 8px;
+}
+
+.rainbowColors {
+    width: 500px;
+    height: 30px;
+    margin: 0px;
+}
+
+#gold {
+    position: relative;
+    top: -160px;
+    left: 200px;
+    height: 150px;
+    width: 150px;
+}
+
+/*Typography*/
+
+.exercise1,
+.exercise2 {
+    font-size: 1.2em;
+}
+
+.hidden {
+    display: none;
+}
+
+/*Larger Resolution*/
+
+@media (min-width: 900px) {
+
+    .columns {
+        display: flex;
+    }
+
+    .ex1of2,
+    .ex2of2 {
+        flex: 1;
+    }
+
+    .ex1of2,
+    .ex2of2 {
+        top: 150px;
+    }
+}
