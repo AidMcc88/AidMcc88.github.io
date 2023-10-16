@@ -3,17 +3,25 @@
     <head>
         <title>PilotDemandStats</title>
         <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
     </head>
     <body>
+        <div id="content">
         <header id="main-header" class="padded-area">
+            <h3>Aidan McClelland</h3>
             <h1>PilotDemandStats</h1>
-            <img id="logo" src="https://place-hold.it/300x100/abc">
-            <nav>
-                <ul>
+            <img id="logo" src="../images/logo.png" width="300" height="300">
+            <nav id="main-nav">
+                <div id = "hamburger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <ul id="nav-items" class="hide-small">
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="../background/index.html">Background</a></li>
-                    <li><a href="index.html">News</a></li>
                     <li><a href="../data/index.html">Data</a></li>
+                    <li><a href="#">News</a></li>
                     <li><a href="../sources/index.html">Sources</a></li>
                 </ul>
             </nav>
@@ -52,12 +60,27 @@
                 </section>
             </section>
             <section class="section2">
-                <h2>What does this mean?</h2>
+                <h2>News Submission</h2>
                 <section class="text2">
-                    <p>Metus dictum at tempor commodo ullamcorper a lacus vestibulum sed. Aenean sed adipiscing diam 
-                        donec adipiscing  tristique risus nec. Tristique risus nec feugiat in. Eget est lorem ipsum dolor.
-                         Urna neque viverra justo nec ultrices dui sapien. Consequat nisl vel pretium lectus quam. Urna 
-                         neque viverra justo nec ultrices dui sapien. Consequat nisl vel pretium lectus quam.</p>
+                    <!-- <h1 id="input">News Submission</h1> -->
+                    <section class="input">
+                        <section class="sec4">
+                            <h2>V Input Here V</h2>
+                            <p class="columns">
+                                <label for="txt-link">Website Link:</label>
+                                <input type="text" id="txt-link">
+                            </p>
+                            <p class="columns">
+                                <label for="txt-description">Description:</label>
+                                <input type="text" id="txt-description">     
+                            </p>
+                            <section id="boxes">
+                                <p id="add-link"></p>
+                                <p id="add-description"></p>
+                            </section>
+                            <button id="button-add">Add Project</button>
+                        </section>
+                    </section>
                 </section>
             </section>
         </main>
