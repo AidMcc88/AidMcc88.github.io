@@ -1,0 +1,56 @@
+/* Structure */
+body {
+    background-color: rgb(249, 196, 136);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img {
+    opacity: 100%;
+    height: 300px;
+    width: 300px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#main {
+    justify-content: center;
+}
+
+.positioning {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-left: 30%;
+    margin-bottom: 20%;
+    
+}
+
+.toy-styling {
+    margin: 10px;
+    background-color: white;
+    border: 4px solid rgb(220, 86, 82);
+    position: relative
+}
+
+.hidden {
+    display: none;
+}
+
+.changeOpacity {
+    opacity: 30%;
+}
+
+/* Larger Resolutions */
+@media (min-width:900px){
+    
+    .flex-container {
+        display: flex;
+    }
+
+    .wrap {
+        flex-wrap: wrap;
+    }
+
+}
