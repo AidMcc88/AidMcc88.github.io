@@ -63,7 +63,7 @@ h2 {
     border-radius: 5px;
 }
 
-p {
+.section1 p {
     background-color: rgb(214, 246, 255);
     padding: 10px;
     margin-bottom: 20px;
@@ -111,12 +111,20 @@ p {
 }
 
 .section2 {
-    text-align: center;
+    
 }
 
 .section2 h2 {
     color: rgb(214, 246, 255);
     margin-bottom: -30px;
+}
+
+.columns {
+    text-align: center;
+}
+
+.columns label {
+    color: rgb(214, 246, 255);
 }
 
 .text2 {
@@ -126,17 +134,12 @@ p {
 
 .text2 h2 {
     color: rgb(214, 246, 255);
+    margin-bottom: 10px;
 }
 
 #img2 {
     margin: 40px;
     float: right;
-}
-
-#rawdata, #graph {
-    display: inline-block;
-    width: 90%;
-    height: auto;
 }
 
 /* Main Navigation */
@@ -204,10 +207,6 @@ p {
     
     .hide-small {
         display: block;
-    }
-
-    #rawdata, #graph {
-        width: 90%;
     }
 
 }

@@ -91,7 +91,8 @@ p {
 }
 
 #img1 {
-    padding: 10px;
+    padding-left: 70px;
+    padding-top: 60px;
 }
 
 .section2 {
@@ -112,6 +113,7 @@ p {
 #img2 {
     margin: 40px;
     float: right;
+    padding-top: 30px;
 }
 
 /* Main Navigation */
