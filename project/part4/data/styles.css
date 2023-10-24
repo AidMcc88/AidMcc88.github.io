@@ -70,34 +70,32 @@ p {
     border-radius: 10px;
 }
 
+.text3 {
+    padding: 10px;
+    text-align: center;
+}
+
 .section1, .section2 {
     background-color: rgb(20, 15, 59);
     border-radius: 10px;
-}
-
-.text3 {
+    margin: 10px;
     padding: 10px;
-    text-align: left;
-    margin-right: 50%;
 }
 
 .text1 {
-    display: block;
-    text-align: center;
-    margin-left: 50%;
-    margin-top: -260px;
     padding: 10px;
-    position: relative;
-    bottom: 50px;
 }
 
 .text1 h3 {
     color: rgb(214, 246, 255);
-    margin-top: 50px;
+    text-align: center;
 }
 
-#img1 {
-    padding: 10px;
+#rawdata {
+    padding: 30px;
+    border: none;
+    display: flex;
+    width: 80%;
 }
 
 .section2 {
@@ -118,20 +116,9 @@ p {
     color: rgb(214, 246, 255);
 }
 
-#img2 {
-    margin: 40px;
-    float: right;
-}
-
 #graph {
     display: inline-block;
     width: 60%;
-    height: auto;
-}
-
-#rawdata {
-    display: inline-block;
-    width: 90%;
     height: auto;
 }
 
@@ -199,16 +186,48 @@ p {
         display: none;
     }
     
-    .hide-small {
-        display: block;
+    .text3 {
+        padding: 10px;
+        text-align: left;
+        margin-right: 50%;
     }
 
     #rawdata {
+        display: inline-block;
         width: 90%;
+        height: auto;
+    }
+    
+    .text1 {
+        display: block;
+        text-align: center;
+        margin-left: 50%;
+        margin-top: -260px;
+        padding: 10px;
+        position: relative;
+        bottom: 50px;
+    }
+    
+    .text1 h3 {
+        color: rgb(214, 246, 255);
+        margin-top: 50px;
+    }
+    
+    .section2 {
+        position: relative;
+    }
+    
+    .text2 {
+        text-align: center;
+    }
+    
+    .text2 h3 {
+        color: rgb(214, 246, 255);
+        text-align: center
     }
 
-    #graph {
-        width: 60%;
+    .hide-small {
+        display: block;
     }
 
 }

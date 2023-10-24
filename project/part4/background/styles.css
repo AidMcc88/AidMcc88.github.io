@@ -73,27 +73,24 @@ p {
 .section1, .section2 {
     background-color: rgb(20, 15, 59);
     border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
 }
 
 .text1 {
-    display: block;
-    text-align: center;
-    margin-left: 50%;
-    margin-top: -360px;
-    margin-bottom: 40px;
-    margin-right: 80px;
     padding: 10px;
-    position: relative;
 }
 
 .text1 h3 {
     color: rgb(214, 246, 255);
-    margin-top: 50px;
+    text-align: center;
 }
 
 #img1 {
     padding: 30px;
     border: none;
+    display: flex;
+    width: 80%;
 }
 
 .section2 {
@@ -102,8 +99,6 @@ p {
 
 .text2 {
     padding: 10px;
-    text-align: left;
-    margin-right: 50%;
 }
 
 .text2 h3 {
@@ -113,8 +108,9 @@ p {
 
 #img2 {
     margin: 40px;
-    float: right;
+    float: none;
     padding-top: 30px;
+    width: 80%;
 }
 
 /* Main Navigation */
@@ -181,9 +177,52 @@ p {
         display: none;
     }
     
+    .text1 {
+        display: block;
+        text-align: center;
+        margin-left: 50%;
+        margin-top: -360px;
+        margin-bottom: 40px;
+        margin-right: 80px;
+        padding: 10px;
+        position: relative;
+    }
+    
+    .text1 h3 {
+        color: rgb(214, 246, 255);
+        margin-top: 50px;
+    }
+    
+    #img1 {
+        padding: 30px;
+        border: none;
+        width: 40%;
+    }
+    
+    .section2 {
+        position: relative;
+    }
+    
+    .text2 {
+        padding: 10px;
+        text-align: left;
+        margin-right: 50%;
+    }
+    
+    .text2 h3 {
+        color: rgb(214, 246, 255);
+        text-align: center
+    }
+    
+    #img2 {
+        margin: 40px;
+        float: right;
+        padding-top: 30px;
+        width: 40%;
+    }
+
     .hide-small {
         display: block;
     }
-
 
 }

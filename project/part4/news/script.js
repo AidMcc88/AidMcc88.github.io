@@ -13,7 +13,7 @@ const printProject = () => {
   
   const information = document.getElementById("txt-information").value;
 
-  newproject.innerHTML += `<section class = "section3"> <font size="+2"><h2 id = "soft">${name}</h2><font> <h1>${information}</h1> <p><a href><strong>${link}</strong></a></p></section>`;
+  newproject.innerHTML += `<section class = "section3"> <font size="+2"><h2 id = "soft">${name}</h2><font> <p>${information}</p> <h3><a href><strong>${link}</strong></a></h3></section>`;
 
   document.getElementById("new").classList.toggle("hide-small");
 }
