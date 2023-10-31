@@ -14,15 +14,14 @@ const printProject = () => {
     const description1 = document.getElementById("txt-description1").value;
     const description2 = document.getElementById("txt-description2").value;
     const description3 = document.getElementById("txt-description3").value;
-    const description4 = document.getElementById("txt-description4").value;
 
-    newproject.innerHTML += `<font size="+2"><h1 id = "soft">${name}</h1><font> <section class = "sec4"> <p><a href><strong>${link}</strong></a></p> <ul><li>${description1}</li><li>${description2}</li><li>${description3}</li><li>${description4}</li></ul></section>`;
+    newproject.innerHTML += `<font size="+2"><h1 id = "soft">${name}</h1><font> <section class = "sec4"> <p><a href><strong>${link}</strong></a></p> <ul><li>${description1}</li><li>${description2}</li><li>${description3}</li></ul></section>`;
 
     document.getElementById("new").classList.toggle("hidden");
 }
 
 const getProjects = async () => {
-    const url = "https://aidmcc88.github.io/jsons/projects.json";
+    const url = "https://aidmcc88.github.io/jsons/sourcelist.json";
     try {
       const response = await fetch(url);
       return await response.json();
@@ -69,9 +68,6 @@ const getProjects = async () => {
     let liC = document.createElement("li");
     liC.innerText = project.descrC;
     ul.append(liC);
-    let liD = document.createElement("li");
-    liD.innerText = project.descrD;
-    ul.append(liD);
 
     let img = document.createElement("img");
     img.src = "https://aidmcc88.github.io/jsons/" + project.img;
@@ -82,6 +78,5 @@ const getProjects = async () => {
 
 window.onload = () => {
     document.getElementById("hamburger").onclick = toggleNav;
-    document.getElementById("button-add").onclick = printProject;
     showProjects();
 }
