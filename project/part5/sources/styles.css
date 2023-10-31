@@ -65,6 +65,8 @@ h2 {
 
 #main-content img {
     display: flex;
+    width: 300px;
+    height: 150px;
 }
 
 #main-content p {
