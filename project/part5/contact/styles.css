@@ -89,6 +89,10 @@ p {
     padding-top: 20px;
 }
 
+#result {
+    text-align: center;
+}
+
 /* Main Navigation */
 
 #main-nav ul {

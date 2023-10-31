@@ -63,65 +63,24 @@ h2 {
     border-radius: 5px;
 }
 
-.section1, .section2 {
+#section1 {
     background-color: rgb(20, 15, 59);
     border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
 }
 
-.section1 p {
+#form, #success-message {
     background-color: rgb(214, 246, 255);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#section1 p {
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 10px;
-}
-
-.section1 h3 {
-    color: rgb(214, 246, 255);
-    padding: 10px;
-    margin-bottom: -20px;
-}
-
-.text1 {
-    padding: 10px;
-}
-
-.text1 h3 {
-    color: rgb(214, 246, 255);
-    text-align: center;
-}
-
-.section2 {
-    text-align: center;
-    background-color: rgb(20, 15, 59);
-    padding-bottom: 20px;
-    border-radius: 10px;
-    width: 30%;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-.section2 li {
-    list-style-type: none;
-    background-color: rgb(162, 216, 252);
-    margin: 4px;
-    padding: 4px;
-    position: relative;
-    font-size: 30px;
-}
-
-.section2 a {
-    text-decoration: none;
-    color: black;
-}
-
-.columns {
-    text-align: center;
-}
-
-.columns label {
-    color: rgb(214, 246, 255);
 }
 
 /* Main Navigation */
@@ -163,7 +122,7 @@ h2 {
     margin-left: 10px;
 }
 
-.hide-small {
+.hidden {
     display: none;
 }
 
