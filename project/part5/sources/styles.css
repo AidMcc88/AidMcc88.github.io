@@ -64,7 +64,7 @@ header h2 {
 }
 
 #main-content img {
-    display: flex;
+    display: inline-block;
     width: 300px;
     height: 150px;
 }
