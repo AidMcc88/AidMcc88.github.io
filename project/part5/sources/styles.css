@@ -46,18 +46,18 @@ main a:hover {
     height: 160px;
 }
 
-ul {
+header ul {
     list-style-type: none;
     font-size: 25px;
     margin-left: 170px;
 }
 
-li {
+header li {
     display: inline;
     margin-right: 20px;
 }
 
-h2 {
+header h2 {
     text-align: center;
     padding: 10px;
     border-radius: 5px;
@@ -69,8 +69,13 @@ h2 {
     height: 150px;
 }
 
+#main-content ul {
+    list-style-type: none;
+    font-size: 25px;
+}
+
 #main-content p {
-    text-align: right;
+    text-align: left;
 }
 
 #main-content h1 {
@@ -82,7 +87,8 @@ section {
     padding: 10px 10px;
     background: white;
     border-radius: 10px;
-    border: 3px solid #363537;
+    border: 3px solid rgb(20, 15, 59);
+    text-align: center;
 }
 
 /* Main Navigation */
