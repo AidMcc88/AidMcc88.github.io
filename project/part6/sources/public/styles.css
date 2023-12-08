@@ -1,0 +1,273 @@
+body {
+    font-family: 'Times New Roman', Times, serif serif;
+    background-color: #aadaec;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: -80px;
+    font-size: 45px;
+    left: 150px;
+}
+
+#main-header {
+    background-color: #eafaff;
+    color: black;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+#content {
+    width: 85%;
+    margin: auto;
+    padding: 3px 5px;
+}
+
+header h3 {
+    text-align: left;
+    padding: 20px;
+}
+
+main a {
+    text-decoration: none;
+    color: #DCE0D9;
+    transition: background-color 0.3s ease;
+}
+
+main a:hover {
+    background-color: #808F85;
+}
+
+#logo {
+    display: none;
+    float: right;
+    height: 160px;
+}
+
+header ul {
+    list-style-type: none;
+    font-size: 25px;
+    margin-left: 170px;
+}
+
+header li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header h2 {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#main-content img {
+    display: inline-block;
+    width: 300px;
+    height: 150px;
+}
+
+#main-content ul {
+    list-style-type: none;
+    font-size: 25px;
+}
+
+#main-content p {
+    text-align: left;
+}
+
+#main-content h1 {
+    text-align: center;
+}
+
+section {
+    margin: 10px;
+    padding: 10px 10px;
+    background: #eafaff;
+    border-radius: 10px;
+    border: 3px solid rgb(20, 15, 59);
+    text-align: center;
+}
+
+/* Main Navigation */
+
+#main-nav ul {
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+  
+#main-nav li {
+    list-style-type: none;
+    background-color: rgb(162, 216, 252);
+    margin: 4px;
+    padding: 4px;
+    border: 2px solid rgb(20, 15, 59);
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    font-size: 15px;
+}
+  
+#main-nav a {
+    text-decoration: none;
+    color: black;
+}
+  
+#main-nav li:hover {
+    background-color: darkgray;
+}
+  
+#hamburger div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    margin-left: 10px;
+}
+
+.hide-small {
+    display: none;
+}
+
+/* Add/Edit Elements */
+
+.source {
+    padding: 10px;
+    margin: 10px;
+    background: #eafaff;
+    border-radius: 5px;
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.source img {
+    max-width: 90%;
+    display: block;
+    margin: auto;
+}
+
+#source-details-column {
+    padding: 10px;
+    margin: 10px;
+    background: #aadaec;
+    border-radius: 5px;
+}
+
+#add-link {
+    font-size: 2em;
+    color: blue;
+}
+
+#edit-link {
+    float: right;
+    margin-right: 10px;
+}
+
+#delete-link {
+    float: right;
+}
+
+#add-edit-source-container {
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 70%;
+}
+
+/* Form */
+
+label {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+#links-p input {
+    margin-top: 5px;
+}
+
+#add-link {
+    color: rgb(23, 0, 139);
+    font-size: 2em;
+    text-align: right;
+}
+
+#modal-background {
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.dialog {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+}
+
+.dialog img {
+    max-width: fit-content;
+    display: block;
+    padding: 30px 5px 30px 30px;
+    margin: auto;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 0px 5px;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Larger Resolutions */
+
+@media (min-width: 1100px) {
+    #main-nav ul, .flex-container {
+        display: block;
+    }
+
+    #logo {
+        display: flex;
+    }
+    
+    #main-nav li {
+        flex: 1;
+        top: 70px;
+        left: 160px;
+    }
+
+    #hamburger {
+        display: none;
+    }
+    
+    .hide-small {
+        display: block;
+    }
+
+}

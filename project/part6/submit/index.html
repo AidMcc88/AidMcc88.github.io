@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>PilotDemandStats</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="content">
+        <header id="main-header" class="padded-area">
+            <h3>Aidan McClelland</h3>
+            <h1>PilotDemandStats</h1>
+            <img id="logo" src="../images/logo.png" width="300" height="300">
+            <nav id="main-nav">
+                <div id = "hamburger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <ul id="nav-items" class="hidden">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../background/index.html">Background</a></li>
+                    <li><a href="../data/index.html">Data</a></li>
+                    <li><a href="../news/index.html">News</a></li>
+                    <li><a href="../sources/index.html">Sources</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="section1">
+            <main class="main">
+                <div class="forms">
+                    <section id="forms-section">
+                        <form id="form">
+                            Article Title:
+                            <p> 
+                                <input type="text" id="name" name="name" required>
+                            </p>
+                            Publish Date:
+                            <p>
+                                <input type="date" id="date" required>
+                            </p>
+                            Description:
+                            <p>
+                                <textarea type="text" id="description" name="description"></textarea>
+                            </p>
+                            <p>
+                                <input type="file" id="fileInput" accept=".jpg, .jpeg, .png, .pdf" required >
+                            </p>
+                            <p>
+                                <button id="add" type="submit">Add Article</button>
+                            </p>
+                        </form>
+                        <section id="success-message" class="hidden">
+                            <p>Your article has been added</p>
+                        </section>
+                    </section>
+                </div>
+            </main>
+        </section>
+    </body>
+</html>

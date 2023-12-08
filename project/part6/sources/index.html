@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header id="main-header" class="padded-area">
+        <h3>Aidan McClelland</h3>
+        <h1>PilotDemandStats</h1>
+        <img id="logo" src="images/logo.png" width="300" height="300">
+        <nav id="main-nav">
+            <div id = "hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul id="nav-items" class="hide-small">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../background/index.html">Background</a></li>
+                <li><a href="../data/index.html">Data</a></li>
+                <li><a href="../news/index.html">News</a></li>
+                <li><a href="#">Sources</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Sources</h1>
+    <a href="#" id="add-link">+</a>
+    <div class="columns two-columns">
+        <div id="source-list" class="columns"></div>
+        <div id="source-details-column">
+            <div id="source-details"></div>
+        </div>
+    </div>
+    <div id="add-edit-source-container" class="dialog transparent">
+        <span class="close">&times;</span>
+
+        <h3 id="add-edit-title">Source</h3>
+        <form id="add-edit-source-form" method="post">
+            <input type="hidden" name="_id" value="-1" />
+            <p>
+                <label for="name ">Source Title:</label>
+                <input type="text" id="name" name="name" required />
+            </p>
+            <p>
+                <label for="link">Link:</label>
+                <input type="text" id="link" name="link" required />
+            </p>
+
+            <p>
+                <label for="img">Upload Image:</label>
+                <input type="file" id="img" name="img" />
+            </p>
+
+            <p id="citations-p ">
+                <label class="inline">Citations:</label>
+                <a href="#" id="add-citation">Add Citation</a>
+                <section id="citation-boxes"></section>
+            </p>
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>
